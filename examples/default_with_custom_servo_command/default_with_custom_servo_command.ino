@@ -1155,5 +1155,9 @@ int custom_callback(int argc, char *argv[], char argv2[])
         myservo.write(180); 
       }
     }
+
+    delay(3000);
+
+    Serial.print("delay done");
     
 }
